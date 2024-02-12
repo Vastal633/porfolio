@@ -190,6 +190,7 @@ body{
     display: flex;
     height: 100%;
     align-items: center;
+    justify-content: end;
 }
 
 .one{
@@ -205,4 +206,10 @@ body{
 .userimg img{
     height: 462px;
 
+}
+.three p{
+    color: white;
+    
+    width: 291px;
+    font-size: 17px;
 }
