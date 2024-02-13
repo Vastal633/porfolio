@@ -8,113 +8,113 @@
     font-family: "Poppins", sans-serif;
     font-weight: 100;
     font-style: normal;
-  }
-  
-  .poppins-extralight {
+}
+
+.poppins-extralight {
     font-family: "Poppins", sans-serif;
     font-weight: 200;
     font-style: normal;
-  }
-  
-  .poppins-light {
+}
+
+.poppins-light {
     font-family: "Poppins", sans-serif;
     font-weight: 300;
     font-style: normal;
-  }
-  
-  .poppins-regular {
+}
+
+.poppins-regular {
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
-  }
-  
-  .poppins-medium {
+}
+
+.poppins-medium {
     font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-style: normal;
-  }
-  
-  .poppins-semibold {
+}
+
+.poppins-semibold {
     font-family: "Poppins", sans-serif;
     font-weight: 600;
     font-style: normal;
-  }
-  
-  .poppins-bold {
+}
+
+.poppins-bold {
     font-family: "Poppins", sans-serif;
     font-weight: 700;
     font-style: normal;
-  }
-  
-  .poppins-extrabold {
+}
+
+.poppins-extrabold {
     font-family: "Poppins", sans-serif;
     font-weight: 800;
     font-style: normal;
-  }
-  
-  .poppins-black {
+}
+
+.poppins-black {
     font-family: "Poppins", sans-serif;
     font-weight: 900;
     font-style: normal;
-  }
-  
-  .poppins-thin-italic {
+}
+
+.poppins-thin-italic {
     font-family: "Poppins", sans-serif;
     font-weight: 100;
     font-style: italic;
-  }
-  
-  .poppins-extralight-italic {
+}
+
+.poppins-extralight-italic {
     font-family: "Poppins", sans-serif;
     font-weight: 200;
     font-style: italic;
-  }
-  
-  .poppins-light-italic {
+}
+
+.poppins-light-italic {
     font-family: "Poppins", sans-serif;
     font-weight: 300;
     font-style: italic;
-  }
-  
-  .poppins-regular-italic {
+}
+
+.poppins-regular-italic {
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: italic;
-  }
-  
-  .poppins-medium-italic {
+}
+
+.poppins-medium-italic {
     font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-style: italic;
-  }
-  
-  .poppins-semibold-italic {
+}
+
+.poppins-semibold-italic {
     font-family: "Poppins", sans-serif;
     font-weight: 600;
     font-style: italic;
-  }
-  
-  .poppins-bold-italic {
+}
+
+.poppins-bold-italic {
     font-family: "Poppins", sans-serif;
     font-weight: 700;
     font-style: italic;
-  }
-  
-  .poppins-extrabold-italic {
+}
+
+.poppins-extrabold-italic {
     font-family: "Poppins", sans-serif;
     font-weight: 800;
     font-style: italic;
-  }
-  
-  .poppins-black-italic {
+}
+
+.poppins-black-italic {
     font-family: "Poppins", sans-serif;
     font-weight: 900;
     font-style: italic;
-  }
-  
+}
 
-body{
-    background-color: #a0a0a0;
+
+body {
+    background-color: #222438;
 }
 
 .navbar {
@@ -128,36 +128,36 @@ body{
     width: 60px;
 }
 
-.logo{
+.logo {
     align-items: center;
     display: flex;
 }
 
-.logo div{
+.logo div {
     font-size: 1.5rem;
     color: white;
     font-weight: 500;
 
 }
 
-.nav-menu ul{
+.nav-menu ul {
     display: flex;
-    list-style:none;
+    list-style: none;
 }
 
-.nav-menu ul li{
+.nav-menu ul li {
     padding: 16px;
     color: white;
     font-size: 1.2rem;
 }
 
-.nav-menu ul li:hover{
+.nav-menu ul li:hover {
     background-color: #67e293;
-    cursor: pointer; 
-    transition: 0.5s;   
+    cursor: pointer;
+    transition: 0.5s;
 }
 
-.contact_btn button{
+.contact_btn button {
     padding: 8px 17px;
     background-color: #74b8cd;
     border: none;
@@ -167,49 +167,96 @@ body{
     border-radius: 12px;
 }
 
-.contact_btn button:hover{
-    cursor:pointer;
+.contact_btn button:hover {
+    cursor: pointer;
     border-radius: 0px;
     transition: 0.5s;
 }
 
-.bgimg{
+.bgimg {
     background-image: url('https://i.pinimg.com/736x/6c/bb/36/6cbb36a34afe45944dc1280aed5f9c0c.jpg');
-    width:100%;
+    width: 100%;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
     height: 460px;
 }
 
-.floatimg{
+.floatimg {
     width: 200px;
 }
 
-.user{
+.user {
     display: flex;
     height: 100%;
     align-items: center;
-    justify-content: end;
+    justify-content: center;
 }
 
-.one{
+.one {
     color: #ff9400;
     font-size: 17px;
 }
 
-.two{
+.two {
     font-size: 26px;
     color: #1eff97;
 }
 
-.userimg img{
+.userimg img {
     height: 462px;
 
 }
-.three p{
+
+.three p {
     color: white;
-    
-    width: 291px;
+    width: 397px;
     font-size: 17px;
+}
+
+.btns {
+    padding: 3px 13px;
+    margin-top: 7px;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.btn1 {
+    background-color: #00ff4e;
+    padding: 4px 26px;
+}
+
+.btn1:hover {
+    background-color: transparent;
+    border: solid 0.2px gray;
+    padding: 3px 26px;
+    color: white;
+    transition: 0.3s;
+}
+
+.btn2 {
+    background-color: transparent;
+    color: white;
+    border: solid 0.2px gray;
+}
+
+
+.btn2:hover {
+    background-color: #ea4dfffc;
+    transition: 0.3s;
+    color: black;
+    border: solid 0.2px #ea4dfffc
+}
+.h1 span{
+    color: #727272;
+    font-size: 1.2rem;
+}
+
+.h2 span{
+    color: #1eff97;
+    font-size: 2.2rem;
+    
+    border-bottom: 1px solid;
 }
