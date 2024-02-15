@@ -1,7 +1,9 @@
 * {
   padding: 0px;
+  
   margin: 0px;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
 }
 
 .poppins-thin {
@@ -121,7 +123,7 @@ body {
   display: flex;
   justify-content: space-between;
   background-color: #222438;
-    align-items: center;
+  align-items: center;
 }
 
 .logo img {
@@ -135,7 +137,7 @@ body {
 
 .logo div {
   font-size: 1.5rem;
-  color: #1eff97;
+  color: white;
   font-weight: 500;
 
 }
@@ -147,7 +149,7 @@ body {
 
 .nav-menu ul li {
   padding: 16px;
-  color: #1eff97;
+  color: white;
   font-size: 1.2rem;
 }
 
@@ -160,9 +162,9 @@ body {
 
 .contact_btn button {
   padding: 8px 17px;
-  background-color: #74b8cd;
+  background-color: #f8e9a1;
   border: none;
-  color: white;
+  color: black;
   font-size: 17px;
   font-weight: 600;
   border-radius: 12px;
@@ -170,8 +172,9 @@ body {
 
 .contact_btn button:hover {
   cursor: pointer;
-  border-radius: 0px;
-  transition: 0.5s;
+  box-shadow: 0px 0px 8px #f8e9a1;
+  /* border-radius: 0px; */
+  transition: 0.3s;
 }
 
 .bgimg {
@@ -210,6 +213,7 @@ body {
 }
 
 .three p {
+  padding: 3px 0px ;
   color: white;
   width: 397px;
   font-size: 17px;
@@ -235,7 +239,7 @@ body {
   padding: 3px 26px;
   color: white;
   transition: 0.3s;
-  
+
 }
 
 .btn2 {
@@ -251,80 +255,122 @@ body {
   color: black;
   border: solid 0.2px #ea4dfffc
 }
-.skill_section{
+
+.skill_section {
   padding: 4%;
 }
-.h1 span{
+
+.h1 span {
   color: #727272;
   font-size: 1.2rem;
 }
 
-.h2 span{
+.h2 span {
   color: #1eff97;
   font-size: 2.2rem;
 
 }
-.bottom{
+
+.bottom {
   border: solid 1px #1eff97;
-    width: 5%;
+  width: 5%;
 }
-.github{
+
+.github {
   /* border: solid; */
   width: 200px;
-  padding: 28px ;
+  padding: 28px;
   color: white;
-  box-shadow: 0px 0px 12px 2px black;
+  box-shadow: 0px 0px 12px 2px #848484;;
 }
-.skill{
+
+.skill {
   margin-top: 22px;
   display: flex;
-  justify-content: space-between ;
+  justify-content: space-between;
 }
-.github img{
+
+.github img {
   width: 44px;
 }
 
-.github span{
+.github span {
   font-weight: 600;
 }
 
-.floating{
+.floating {
   top: 40%;
 
   position: fixed;
 }
 
-.icon{
+.icon {
   padding: 6px;
   cursor: pointer;
 }
 
-.insta{
-  background-image: linear-gradient(#9730e3,#d52fbb,#f73d3e);
+.insta {
+  background-image: linear-gradient(#9730e3, #d52fbb, #f73d3e);
   border-top-right-radius: 12px;
 }
 
 
-.facebook{
+.facebook {
   background-color: #316ff6;
 }
 
-.twitter{
+.twitter {
   background-color: black;
   border-bottom-right-radius: 8px;
 }
 
 
-.twitter:hover{
+.twitter:hover {
   box-shadow: 0px 4px 11px 0px black;
 
 }
 
-.facebook:hover{
+.facebook:hover {
   box-shadow: 6px 4px 20px 0px #2569fa;
 }
 
-.insta:hover{
+.insta:hover {
   box-shadow: 6px 4px 20px 0px #9730e3;
 }
 
+.cir {
+
+  width: 16px;
+  height: 16px;
+  background-color: transparent;
+  border: solid 1px #1eff97;
+  border-radius: 50%;
+}
+
+.line {
+  border: solid 1px #1eff97;
+  width: 0px;
+  margin-left: 8px;
+  height: 19px;
+}
+
+
+.active1 {
+  background-color: #1eff97;
+}
+
+.progress_bar {
+  position: absolute;
+  top: 49%;
+  right: 1%;
+}
+
+.progres_bar2{
+  position: absolute;
+  top: 120%;
+  right: 1%;
+}
+
+.active2{
+  background-color: #1eff97;
+}
