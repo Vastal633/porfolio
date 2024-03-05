@@ -1,440 +1,462 @@
 * {
-    padding: 0px;
+  padding: 0px;
 
-    margin: 0px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-
+  margin: 0px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+  
+
 .poppins-thin {
-    font-family: "Poppins", sans-serif;
-    font-weight: 100;
-    font-style: normal;
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
 }
 
 .poppins-extralight {
-    font-family: "Poppins", sans-serif;
-    font-weight: 200;
-    font-style: normal;
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
 }
 
 .poppins-light {
-    font-family: "Poppins", sans-serif;
-    font-weight: 300;
-    font-style: normal;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
 }
 
 .poppins-regular {
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .poppins-medium {
-    font-family: "Poppins", sans-serif;
-    font-weight: 500;
-    font-style: normal;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
 }
 
 .poppins-semibold {
-    font-family: "Poppins", sans-serif;
-    font-weight: 600;
-    font-style: normal;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
 }
 
 .poppins-bold {
-    font-family: "Poppins", sans-serif;
-    font-weight: 700;
-    font-style: normal;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
 }
 
 .poppins-extrabold {
-    font-family: "Poppins", sans-serif;
-    font-weight: 800;
-    font-style: normal;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
 }
 
 .poppins-black {
-    font-family: "Poppins", sans-serif;
-    font-weight: 900;
-    font-style: normal;
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
 }
 
 .poppins-thin-italic {
-    font-family: "Poppins", sans-serif;
-    font-weight: 100;
-    font-style: italic;
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: italic;
 }
 
 .poppins-extralight-italic {
-    font-family: "Poppins", sans-serif;
-    font-weight: 200;
-    font-style: italic;
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: italic;
 }
 
 .poppins-light-italic {
-    font-family: "Poppins", sans-serif;
-    font-weight: 300;
-    font-style: italic;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: italic;
 }
 
 .poppins-regular-italic {
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-style: italic;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: italic;
 }
 
 .poppins-medium-italic {
-    font-family: "Poppins", sans-serif;
-    font-weight: 500;
-    font-style: italic;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: italic;
 }
 
 .poppins-semibold-italic {
-    font-family: "Poppins", sans-serif;
-    font-weight: 600;
-    font-style: italic;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: italic;
 }
 
 .poppins-bold-italic {
-    font-family: "Poppins", sans-serif;
-    font-weight: 700;
-    font-style: italic;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: italic;
 }
 
 .poppins-extrabold-italic {
-    font-family: "Poppins", sans-serif;
-    font-weight: 800;
-    font-style: italic;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: italic;
 }
 
 .poppins-black-italic {
-    font-family: "Poppins", sans-serif;
-    font-weight: 900;
-    font-style: italic;
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: italic;
 }
 
 
 body {
-    background-color: #222438;
+  background-color: #222438;
 }
 
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    background-color: #222438;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  background-color: #222438;
+  align-items: center;
 }
 
 .logo img {
-    width: 60px;
+  width: 60px;
 }
 
 .logo {
-    align-items: center;
-    display: flex;
+  align-items: center;
+  display: flex;
 }
 
 .logo div {
-    font-size: 1.5rem;
-    color: white;
-    font-weight: 500;
+  font-size: 1.5rem;
+  color: white;
+  font-weight: 500;
 
 }
 
 .nav-menu ul {
-    display: flex;
-    list-style: none;
+  display: flex;
+  list-style: none;
 }
 
 .nav-menu ul li {
-    padding: 16px;
-    color: white;
-    font-size: 1.2rem;
+  padding: 16px;
+  color: white;
+  font-size: 1.2rem;
 }
 
 .nav-menu ul li:hover {
-    background-color: rgb(126 196 255 / 47%);
-    cursor: pointer;
-    color: white;
-    transition: all 0.5s ease 0s;
+  background-color: rgb(126 196 255 / 47%);
+  cursor: pointer;
+  color: white;
+  transition: all 0.5s ease 0s;
 }
-
+.contact_btn{
+  display: flex;
+  gap: 12px;
+}
 .contact_btn button {
-    padding: 8px 17px;
-    background-color: #f8e9a1;
-    border: none;
-    color: black;
-    font-size: 17px;
-    font-weight: 600;
-    border-radius: 12px;
+  padding: 8px 17px;
+  background-color: #f8e9a1;
+  border: none;
+  color: black;
+  font-size: 17px;
+  font-weight: 600;
+  border-radius: 12px;
+  text-align: center;
+  margin-right: 6px;
+  justify-content: center;
+  display: flex;
 }
 
 .contact_btn button:hover {
-    cursor: pointer;
-    box-shadow: 0px 0px 8px #f8e9a1;
-    /* border-radius: 0px; */
-    transition: 0.3s;
+  cursor: pointer;
+  box-shadow: 0px 0px 8px #f8e9a1;
+  /* border-radius: 0px; */
+  transition: 0.3s;
 }
 
 .bgimg {
-    background-image: url('https://i.pinimg.com/736x/6c/bb/36/6cbb36a34afe45944dc1280aed5f9c0c.jpg');
-    width: 100%;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    height: 460px;
+  background-image: url('https://i.pinimg.com/736x/6c/bb/36/6cbb36a34afe45944dc1280aed5f9c0c.jpg');
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 460px;
 }
 
 .floatimg {
-    width: 200px;
+  width: 200px;
 }
 
 .user {
-    display: flex;
-    height: 100%;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
 }
 
 .one {
-    color: #ff9400;
-    font-size: 17px;
+  color: #ff9400;
+  font-size: 17px;
 }
 
 .two {
-    font-size: 26px;
-    color: #1eff97;
+  font-size: 26px;
+  color: #1eff97;
 }
 
 .userimg img {
-    height: 462px;
+  height: 462px;
 
 }
 
 .three p {
-    padding: 3px 0px;
-    color: white;
-    width: 397px;
-    font-size: 17px;
+  padding: 3px 0px;
+  color: white;
+  width: 397px;
+  font-size: 17px;
 }
 
 .btns {
-    padding: 3px 13px;
-    margin-top: 7px;
-    border: none;
-    font-size: 14px;
-    font-weight: 600;
-    cursor: pointer;
+  padding: 3px 13px;
+  margin-top: 7px;
+  border: none;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
 }
 
 .btn1 {
-    background-color: #1eff97;
-    padding: 4px 26px;
+  background-color: #1eff97;
+  padding: 4px 26px;
 }
 
 .btn1:hover {
-    background-color: transparent;
-    border: solid 0.2px gray;
-    padding: 3px 26px;
-    color: white;
-    transition: 0.3s;
+  background-color: transparent;
+  border: solid 0.2px gray;
+  padding: 3px 26px;
+  color: white;
+  transition: 0.3s;
 
 }
 
 .btn2 {
-    background-color: transparent;
-    color: white;
-    border: solid 0.2px gray;
+  background-color: transparent;
+  color: white;
+  border: solid 0.2px gray;
 }
 
 
 .btn2:hover {
-    background-color: #ea4dfffc;
-    transition: 0.3s;
-    color: black;
-    border: solid 0.2px #ea4dfffc
+  background-color: #ea4dfffc;
+  transition: 0.3s;
+  color: black;
+  border: solid 0.2px #ea4dfffc
 }
 
 .skill_section {
-    padding: 4%;
+  padding: 4%;
 }
 
 .h1 span {
-    color: #727272;
-    font-size: 1.2rem;
+  color: #727272;
+  font-size: 1.2rem;
 }
 
 .h2 span {
-    color: #1eff97;
-    font-size: 2.2rem;
+  color: #1eff97;
+  font-size: 2.2rem;
 
 }
 
 .bottom {
-    border: solid 1px #1eff97;
-    width: 5%;
+  border: solid 1px #1eff97;
+  width: 5%;
 }
 
 .github {
-    /* border: solid; */
-    width: 200px;
-    padding: 28px;
-    color: white;
-    box-shadow: 0px 0px 12px 2px #0c0c0c;
-    border-radius:12px;
+  /* border: solid; */
+  width: 200px;
+  padding: 28px;
+  color: white;
+  box-shadow: 0px 0px 12px 2px #0c0c0c;
+  border-radius:12px;
 }
 
 .github:hover{
-    box-shadow: 0px 0px 12px 2px #1eff97;
- 
+  box-shadow: 0px 0px 12px 2px #1eff97;
+
 }
 
 
 .skill {
-    margin-top: 22px;
-    display: flex;
-    justify-content: space-between;
+  margin-top: 22px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .github img {
-    width: 44px;
+  width: 44px;
 }
 
 .github span {
-    font-weight: 600;
+  font-weight: 600;
 }
 
 .floating {
-    top: 40%;
+  top: 40%;
 
-    position: fixed;
+  position: fixed;
 }
 
 .icon {
-    padding: 6px;
-    cursor: pointer;
+  padding: 6px;
+  cursor: pointer;
 }
 
 .insta {
-    background-image: linear-gradient(#9730e3, #d52fbb, #f73d3e);
-    border-top-right-radius: 12px;
+  background-image: linear-gradient(#9730e3, #d52fbb, #f73d3e);
+  border-top-right-radius: 12px;
 }
 
 
 .facebook {
-    background-color: #316ff6;
+  background-color: #316ff6;
 }
 
 .twitter {
-    background-color: black;
-    border-bottom-right-radius: 8px;
+  background-color: black;
+  border-bottom-right-radius: 8px;
 }
 
 
 .twitter:hover {
-    box-shadow: 0px 4px 11px 0px black;
+  box-shadow: 0px 4px 11px 0px black;
 
 }
 
 .facebook:hover {
-    box-shadow: 6px 4px 20px 0px #2569fa;
+  box-shadow: 6px 4px 20px 0px #2569fa;
 }
 
 .insta:hover {
-    box-shadow: 6px 4px 20px 0px #9730e3;
+  box-shadow: 6px 4px 20px 0px #9730e3;
 }
 
 .cir {
 
-    width: 16px;
-    height: 16px;
-    background-color: transparent;
-    border: solid 1px #1eff97;
-    border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  background-color: transparent;
+  border: solid 1px #1eff97;
+  border-radius: 50%;
 }
 
 .line {
-    border: solid 1px #1eff97;
-    width: 0px;
-    margin-left: 8px;
-    height: 19px;
+  border: solid 1px #1eff97;
+  width: 0px;
+  margin-left: 8px;
+  height: 19px;
 }
 
 
 .active1 {
-    background-color: #1eff97;
+  background-color: #1eff97;
 }
 
 .progress_bar {
-    position: absolute;
-    top: 44%;
-    right: 1%;
+  position: absolute;
+  top: 44%;
+  right: 1%;
 }
 
 .progres_bar2 {
-    position: absolute;
-    top: 115%;
-    right: 1%;
+  position: absolute;
+  top: 115%;
+  right: 1%;
 }
 
 
 .progres_bar3 {
-    position: absolute;
-    top: 162%;
-    right: 1%;
+  position: absolute;
+  top: 162%;
+  right: 1%;
 }
 .active2 {
-    background-color: #1eff97;
+  background-color: #1eff97;
 }
 
 .active3{
-    background-color: #1eff97;
+  background-color: #1eff97;
 }
 
 .we{
-    font-size: 2.2rem;
-    color: #1eff97;
+  font-size: 2.2rem;
+  color: #1eff97;
 }
 
 .work_exp{
-   margin-left : 60px;
+ margin-left : 60px;
 }
 
 .bottom2{
-    border: solid 1px #1eff97;
-    width: 7%;
+  border: solid 1px #1eff97;
+  width: 7%;
 }
 
 
 .parent{
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 28px;
-    margin-bottom: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 28px;
+  margin-bottom: 50px;
 }
 
 .yellow{
-    color: #f8e9a1;
-    text-align: center;
-    display: block;
-    font-size: 1.5rem;
+  color: #f8e9a1;
+  text-align: center;
+  display: block;
+  font-size: 1.5rem;
 }
 
 .white{
-    color: white;
+  color: white;
 }
 
 .child{
-    border: solid 1px #f8e9a1;
-    padding: 40px;
-    box-shadow: 0px 0px 8px #f8e9a1;
-    border-radius: 12px;
+  border: solid 1px #f8e9a1;
+  padding: 40px;
+  box-shadow: 0px 0px 8px #f8e9a1;
+  border-radius: 12px;
+}
+#theme{
+  width: 31px;
+}
+#theme:hover{
+  cursor: pointer;
+}
+
+#theme:active{
+  width:28px;
+}
+
+#moon{
+  display: none;
 }
 
 /* .html{
-    width: 50px;
-    height: 50px;
-    border-top: 1px solid #f8e9a1;
-    border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  border-top: 1px solid #f8e9a1;
+  border-radius: 50%;
 } */
