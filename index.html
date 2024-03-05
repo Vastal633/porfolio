@@ -15,7 +15,7 @@
 
 <body>
     <header>
-        <nav class="navbar">
+        <nav class="navbar" id="navbar">
             <div class="logo">
                 <img src="https://images.websitebuilderexpert.com/wp-content/uploads/2019/05/09020529/wbe-short-logo.png"
                     alt="" srcset="">
@@ -23,13 +23,14 @@
             </div>
             <div class="nav-menu">
                 <ul>
-                    <li>Home</li>
-                    <li>About me</li>
-                    <li>Servies</li>
+                    <li id="li">Home</li>
+                    <li id="li2">About me</li>
+                    <li id="li3">Servies</li>
                 </ul>
             </div>
-
             <div class="contact_btn">
+                <img src="sun.svg" id="theme" onclick="change_color()" alt="">
+                <img src="moon.svg" alt="" id="moon" onclick="dark()">
                 <button>contact me</button>
             </div>
         </nav>
@@ -192,5 +193,5 @@
 
     </main>
 </body>
-
+<script src="script.js"></script>
 </html>
